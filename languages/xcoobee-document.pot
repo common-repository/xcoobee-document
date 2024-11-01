@@ -1,0 +1,296 @@
+# Copyright (C) 2019 XcooBee
+# This file is distributed under the same license as the XcooBee package.
+msgid ""
+msgstr ""
+"Project-Id-Version: XcooBee\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/class-xcoobee-document-admin.php:38, includes/admin/class-xcoobee-document-admin.php:39
+msgid "Document"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:22
+msgid "XcooBee Document Addon"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:24
+msgid ""
+"Allow sending and receiving of secure files via the XcooBee Privacy Network. You can apply workflow to your documents on XcooBee and bypass limitations of WordPress on file sizes and processing. Very large files can be uploaded and downloaded quickly and even on small shared server WordPress deployments.\n"
+"You start by embedding a drop zone your users can use to drop of documents and files anywhere on your pages."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:34
+msgid "Dropzone Layout"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:35
+msgid "These are the global preferences for the dropzone areas in your website. Shortcode attributes can be used to override these values for any particular dropzone. You can also use the CSS selectors to style the dropzone at your own."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:39
+msgid "Base Font Size"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:48
+msgid "Set base font size for the dropzone area (leave this empty to use your theme's default)."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:54
+msgid "Drag and drop your files here."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:61
+msgid "Text Color"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:64
+msgid "Color of the text inside the dropzone."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:68
+msgid "Primary Color"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:71
+msgid "This color will be used for the border, the progress bar and the close icon."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:75
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:78
+msgid "This color will be used for the background."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:88
+msgid "Search Bees"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:89
+msgid "Bees can do many tasks safely while looking out for your privacy. If you need to know the correct name of a bee to use in a shortcode, search here for the bee system name."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:90
+msgid "Search bees"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:98
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:99
+msgid "Use the following shortcodes to display file upload areas on your site."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:102
+msgid "The main shortcode that renders a drop area."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:103
+msgid "Child shortcode of <em>[xcoobee_document]</em> to render an input field for User Reference."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:104
+msgid "Child shortcode of <em>[xcoobee_document]</em> to render an input field to enter a custom parameter."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:105
+msgid "Child shortcode of <em>[xcoobee_document] to send a bee parameter to be used when hiring a bee.</em>"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:112, includes/admin/views/settings-document.php:181, includes/admin/views/settings-document.php:208, includes/admin/views/settings-document.php:247
+msgid "Attribute"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:113, includes/admin/views/settings-document.php:182, includes/admin/views/settings-document.php:209, includes/admin/views/settings-document.php:248, includes/admin/views/settings-document.php:301
+msgid "Description"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:114, includes/admin/views/settings-document.php:183, includes/admin/views/settings-document.php:210, includes/admin/views/settings-document.php:249
+msgid "Default"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:115, includes/admin/views/settings-document.php:175, includes/admin/views/settings-document.php:184, includes/admin/views/settings-document.php:202, includes/admin/views/settings-document.php:211, includes/admin/views/settings-document.php:241, includes/admin/views/settings-document.php:250, includes/admin/views/settings-document.php:280, includes/admin/views/settings-document.php:303, includes/admin/views/settings-document.php:321
+msgid "Example"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:121
+msgid "Dropzone height."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:127
+msgid "Dropzone width."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:133
+msgid "System name of the hiring bee."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:139
+msgid "CSV list of file extensions to allow. This will be applied on top of what the bee normally allows."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:145
+msgid "Alternate text for the dropzone area."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:146, includes/class-xcoobee-document-shortcodes.php:64
+msgid "Drag and drop your files here"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:147, includes/admin/views/settings-document.php:153, includes/admin/views/settings-document.php:159, includes/admin/views/settings-document.php:192, includes/admin/views/settings-document.php:231, includes/admin/views/settings-document.php:270
+msgid "Your text"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:151
+msgid "Alternate text for the browse files button."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:152, includes/class-xcoobee-document-shortcodes.php:65
+msgid "Browse Files"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:157
+msgid "Alternate text for the submission button."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:158, includes/class-xcoobee-document-shortcodes.php:66
+msgid "Send"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:163
+msgid "Additional CSS classes to the dropzone area."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:169
+msgid "Custom HTML Id for the dropzone area."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:175, includes/admin/views/settings-document.php:202, includes/admin/views/settings-document.php:241, includes/admin/views/settings-document.php:280, includes/admin/views/settings-document.php:321
+msgid "Copy"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:190
+msgid "Label for the input field."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:191, includes/class-xcoobee-document-shortcodes.php:175
+msgid "User Reference"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:196, includes/admin/views/settings-document.php:235, includes/admin/views/settings-document.php:274
+msgid "Make this a required filed."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:217
+msgid "Field name."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:223
+msgid "Default value."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:229, includes/admin/views/settings-document.php:268
+msgid "Label for the input field. If left empty, the field will not be visible and the default <code>value</code> will be used."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:256
+msgid "Parameter name."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:262
+msgid "Parameter value."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:289
+msgid "Helper Functions"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:290
+msgid "Helper functions allow you to easily communicate with the XcooBee secure network."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:293
+msgid "Send files securly via XcooBee."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:300
+msgid "Parameter"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:302
+msgid "Default Value"
+msgstr ""
+
+#: includes/admin/views/settings-document.php:309
+msgid "The recipient of the file. Could be a XcooBee Id or an email address."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:315
+msgid "The absolute path of the file to be sent."
+msgstr ""
+
+#: includes/admin/views/settings-document.php:328
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-xcoobee-document-shortcodes.php:141
+msgid "Powered by XcooBee – Your Secure File Network"
+msgstr ""
+
+#: xcoobee-document.php:99
+msgid "XcooBee Cookie requires XcooBee for WordPress to be installed and active. You can download %s here."
+msgstr ""
+
+#: xcoobee-document.php:144
+msgid "View XcooBee Document settings"
+msgstr ""
+
+#: xcoobee-document.php:144
+msgid "Settings"
+msgstr ""
+
+#: xcoobee-document.php:163
+msgid "Bee"
+msgstr ""
+
+#: xcoobee-document.php:164
+msgid "Bee System Name"
+msgstr ""
+
+#: xcoobee-document.php:165
+msgid "Bee Description"
+msgstr ""
+
+#: xcoobee-document.php:232
+msgid "All done, you are good to go. We are sending your files securely."
+msgstr ""
+
+#: xcoobee-document.php:233
+msgid "We could not send your files at the moment. Please try again later."
+msgstr ""
+
+#: xcoobee-document.php:234
+msgid "No files found. You need to add at least one file to proceed."
+msgstr ""
+
+#: xcoobee-document.php:235
+msgid "Sorry, one of your files cannot be uploaded. The accepted file extensions:"
+msgstr ""
+
+#: xcoobee-document.php:236
+msgid "We could not fetch bee information."
+msgstr ""
+
+#: xcoobee-document.php:237
+msgid "No bees found."
+msgstr ""
